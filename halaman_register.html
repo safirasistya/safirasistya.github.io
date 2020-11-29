@@ -1,0 +1,57 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HALAMAN REGISTER</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+	<script src="regist.js"></script>
+<body>
+	<div class="navbar">
+    <div class="logo">MusicArt</div>
+    <div class="menu">
+            <ul>
+                <li>
+                    <a href="halaman_home.html">Home</a>
+                </li>
+                <li>
+                    <a href="halaman_aboutus.html">About Us</a>
+                </li>
+                <li>
+                   <a href="halaman_register.html" id="register">Register</a>
+               </li>
+            </ul>
+    </div>
+    </div> <br>
+
+    <div class="register-box">
+    	<img src="avatar.png" class="avatar">
+    	<h1>Register Now</h1>
+		<form id="reg" name="myForm" onsubmit="return validateForm()" method="post">
+			<label>Nama</label><br>
+			<input type="text" name="fname" placeholder="Masukkan Nama Anda"><br><br>
+			<label>Tanggal Lahir</label><br>
+			<input type="date" name="fborn" placeholder="Masukkan Tanggal Lahir Anda"><br><br>
+			<label>Pekerjaan</label><br>
+			<input type="text" name="fpeker" placeholder="Masukkan Pekerjaan Anda"><br><br>
+			<label>Domisili</label><br>
+			<input type="text" name="fdomisili" placeholder="Masukkan Domisili Anda"><br><br>
+			<label>No. Telephone</label><br>
+			<input type="number" name="fnumber" placeholder="Masukkan no. telp anda"><br><br>
+			<label>Email</label><br>
+			<input type="email" name="femail" placeholder="Masukkan Email Anda"><br><br>
+			<label>Jenis Kelamin</label><br>
+			<input type="text" name="fkel" placeholder="L/P"><br><br>
+			
+			<input type="checkbox"> <span id="checkbox"> Saya setuju dengan semua</span><br><br>
+			<button type="Submit" id="submit">REGISTER</button>
+		</form>
+	</div><br>
+	
+	<div id="akhir">
+		<p>
+        copyright ©2020 MusicArt All Rights Reserved | Design by Safira Sistya Cahyani
+        </p>
+    </div>
+</body>
+</html>
